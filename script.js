@@ -25,3 +25,10 @@ window.onscroll = () => {
     searchForm.classList.remove('active');
     cartItem.classList.remove('active');
 }
+
+
+// Current year
+const date = new Date();
+
+document.getElementById("current-year").innerHTML = date.getFullYear();
+

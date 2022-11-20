@@ -21,6 +21,7 @@
     text-transform: capitalize;
     box-sizing: border-box;
     transition: 0.2s linear;
+    letter-spacing: 2;
     font-family: 'Roboto', sans-serif;
 }
 
@@ -57,7 +58,7 @@ body {
 }
 
 .btn:hover {
-    letter-spacing: 0.2rem;
+    letter-spacing: 3.5;
 }
 
 .heading {
@@ -68,6 +69,7 @@ body {
     font-family: 'Abril Fatface', cursive;
     text-decoration: underline #a16403;
 }
+
 
 /* Header Styles */
 .header {
@@ -214,7 +216,7 @@ body {
     min-height: 100vh;
     display: flex;
     align-items: center;
-    background: url(./images/momo_06.webp);
+    background: url(./images/steamed-momo.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -232,16 +234,20 @@ section {
     font-size: 6rem;
     font-family: 'Lobster', cursive;
     text-transform: uppercase;
-    color: #080700;
+    color: #D4D925;
+}
+.home .content h4 {
+    font-size: 2.5rem;
+    color: #419C70;
 }
 
 .home .content p {
     font-size: 2rem;
-    font-family: 'Dancing Script', cursive;
     font-weight: lighter;
     line-height: 1.8;
     padding: 1rem 0;
     color: #fff;
+    margin-top: 5rem;
 }
 
 /* About Section Style */
@@ -269,10 +275,9 @@ section {
 }
 .about .row .content p{
     font-size: 1.6rem;
-    color: #fff;
+    color: #B2B2B2;
     padding: 1rem 0;
     line-height: 1.5;
-    font-family: 'Dancing Script', cursive;
 }
 
 /* Menu Section Style */
@@ -282,6 +287,8 @@ section {
     align-items: center;
     flex-wrap: wrap;
     justify-content: space-around;
+    background: var(--dark);
+    padding: 4.5rem 0;
 }
 
 .menu .box-container .box {
@@ -314,11 +321,7 @@ section {
 }
 
 .menu .box-container .box:hover {
-    background:  #E6A32F;
-}
-
-.menu .box-container .box:hover {
-    background:  #E6A32F;
+    background: var(--dark-light);
 }
 
 /* Review Section Style */
@@ -328,6 +331,7 @@ section {
     align-items: center;
     flex-wrap: wrap;
     justify-content: space-around;
+    background: var(--dark-light);
 }
 
 .review .box-container .box {
@@ -358,7 +362,7 @@ section {
 .review .box-container .box h3 {
     padding: 1rem 0;
     font-size: 2rem;
-    color: #fff;
+    color: #B2B2B2;
 }
 
 .review .box-container .box .stars i {
@@ -390,7 +394,7 @@ section {
     font-family: 'Dancing Script', cursive;
     text-transform: uppercase;
     font-size: 3.5rem;
-    color: #fff;
+    color: #B2B2B2;
 }
 
 .contact .row form .inputBox {
@@ -437,20 +441,20 @@ section {
     font-size: 2.5rem;
     color: #c45c06;
     margin-bottom: 1rem;
-    font-family: 'Dancing Script', cursive;
+    font-family: 'Lobster', cursive;
 }
 
 .footer #location h4 {
     font-size: 2rem;
-    color: #a16403;
-    font-family: 'Dancing Script', cursive;
+    color: #B2B2B2;
+    font-family: 'Lobster', cursive;
 }
 
 .footer #social-media h4{
     font-size: 2.5rem;
     color: #c45c06;
     margin-bottom: 1rem;
-    font-family: 'Dancing Script', cursive;
+    font-family: 'Lobster', cursive;
 }
 
 .footer #social-media a {
@@ -459,18 +463,34 @@ section {
     color: var(--bg);
 }
 
+.footer #social-media a:hover {
+    color: var(--primary-color);
+}
+
 .footer #link a {
     font-size: 2rem;
-    color: #a16403;
+    color: #B2B2B2;
     display: block;
-    font-family: 'Dancing Script', cursive;
+    font-family: 'Lobster', cursive;
+    
+}
+
+.footer #link a:hover {
+    color: #a16403;
 }
 
 .footer p {
     text-align: center;
     font-size: 2rem;
-    color: #fff;
-    font-family: 'Dancing Script', cursive;
+    color: #B2B2B2;
+    font-family: 'Lobster', cursive;
+    
+}
+
+#current-year {
+    font-family: 'Lobster', cursive;
+    color: #B2B2B2;
+    
 }
 
 
